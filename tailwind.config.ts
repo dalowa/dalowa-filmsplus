@@ -9,11 +9,20 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        
+          netflix: "url(https://raw.githubusercontent.com/dalowa/dalowa-filmsplus/main/public/netflix.png)"
       },
-    },
+      colors: {
+        blueSky: "#88F3EA",
+        blueSkyDarker: "#1B2827",
+        blueSkyDarker50: "#1B2827BF"
+
+      },
+      fontFamily:{
+        Oswald: "Oswald, sans-serif"
+      }
+    }
+      
   },
   plugins: [],
 }
